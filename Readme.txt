@@ -1,5 +1,7 @@
 This sh*t was harder than it should have been.
 
-Edit the file path in CustomGreenScreen.py to where youd like the file to open from and save to.
+CustomGreenScreen.py has a function to remove the green from your image, make it transparent, and pixelate it.
 
-Adjust RGB values as necessarry to achieve the best green removal for your image.
+globwork.py Will take every image in images/unconv, run them through the green screen filter, place new images in images/conv, animate said new images, and save file as a gif in images/gifs.
+
+Adjust RGB values in CustomGreenScreen.py as necessarry to achieve the best green removal for your image.
